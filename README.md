@@ -125,14 +125,7 @@ npm run build
 - Request sanitization against NoSQL injection
 - Security headers and rate limiting
 
-## How This Demonstrates Evaluation Criteria
-- Clean REST API design and correct status codes
-- MongoDB schema modeling for users/tasks
-- Strong auth + authorization implementation
-- Functional frontend integration with protected APIs
-- Scalability-ready modular structure and architecture note
-
-## Interview-Ready Explanation Lines
+## Explanation Lines
 1. I designed and implemented a production-style Express API with JWT authentication, role-based access control, and versioned REST endpoints to ensure secure and maintainable growth.
 2. I applied practical backend security controls including password hashing, input validation, rate limiting, and NoSQL sanitization while keeping the API developer-friendly through Swagger docs.
 3. I delivered full-stack ownership by integrating a React dashboard that consumes protected APIs end-to-end for registration, login, and task lifecycle operations.
