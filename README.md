@@ -29,7 +29,7 @@ cd ../frontend && npm install
 Create `backend/.env` from `backend/.env.example`:
 ```env
 NODE_ENV=development
-PORT=5000
+PORT=3000
 MONGO_URI=mongodb://127.0.0.1:27017/internship_api
 JWT_SECRET=replace_with_long_secret_key
 JWT_EXPIRES_IN=1d
@@ -41,7 +41,7 @@ CORS_ORIGIN=http://localhost:5173
 cd backend
 npm run dev
 ```
-Backend starts at `http://localhost:5000`
+Backend starts at `http://localhost:3000`
 
 ### 4) Run frontend
 ```bash
@@ -51,7 +51,7 @@ npm run dev
 Frontend starts at `http://localhost:5173`
 
 ## API Documentation
-- Swagger: `http://localhost:5000/api-docs`
+- Swagger: `http://localhost:3000/api-docs`
 - Postman collection: `postman/Internship-API.postman_collection.json`
 
 ## Core Endpoints
